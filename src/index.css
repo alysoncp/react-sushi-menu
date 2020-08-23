@@ -5,9 +5,69 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: cornsilk;
+}
+
+button {
+  margin: 10px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+.header {
+  color: white;
+  background-image: url("./images/sushi_banner.jpeg");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+ 
+}
+
+
+.display-4 {
+  font-size: 7vw;
+}
+
+
+.navbar {
+  margin-bottom: 3em;
+}
+
+
+.counters {
+  border-bottom-style: solid;
+  border-bottom-color: navy;
+  padding-bottom: 3em;
+}
+
+
+.row-titles {
+  font-size: 3vw;
+}
+
+.item-price, .item-title {
+  font-size: 2vw;
+}
+
+
+.badge-totals {
+  font-size: large;
+}
+
+
+.totals-row {
+  margin: 3em;
+}
+
+
+.submit {
+  width: 30vw;
+  margin-left: 50vw;
+  padding-bottom: 2em;
+  margin-bottom: 3.5em;
+  font-size: 2vw;
 }
